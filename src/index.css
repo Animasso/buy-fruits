@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Pacifico&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #de2c4d;
+  --color-secondary: #fb923c;
+  --color-light-100: #cecefb;
+  --color-light-200: #a8b5db;
+  --color-gray-100: #9ca4ab;
+  --color-dark-100: #0f0d23;
+
+  --font-poppins: Poppins, sans-serif;
+  --font-averia: "Averia Serif Libre", serif;
+  --font-pacifico: Pacifico, serif;
+}
+
+/* Définir des classes utilitaires personnalisées avec @utilities */
+@utility container {
+  @apply mt-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
