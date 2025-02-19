@@ -12,17 +12,17 @@ const NavbarMobile = ({ setIsOpen }) => {
   return (
     <motion.div
       initial={{ y: -100 }}
-      animate={{ y: 0 }}
+      animate={{ y: 0, opacity: 1 }}
       transition={{ type: "spring", damping: 12 }}
       exit={{ y: -100, opacity: 0 }}
-      className="md:hidden absolute top-16 left-0 w-full bg-white shadow-lg"
+      className="md:hidden absolute top-20 left-0 w-full bg-red-500 text-white rounded-2xl shadow-lg"
     >
       <ul className="flex flex-col items-center space-y-4 py-4">
         {NavbarMenu.map((item) => (
           <li key={item.id}>
             <a
               href={item.link}
-              className="text-black uppercase hover:text-primary transition duration-300"
+              className=" uppercase hover:text-black transition duration-300"
               onClick={() => setIsOpen(false)} // Ferme le menu après un clic
             >
               {item.title}

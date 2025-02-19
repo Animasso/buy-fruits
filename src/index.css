@@ -18,3 +18,7 @@
 @utility container {
   @apply mt-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
 }
+@utility drop-shadow {
+  filter: drop-shadow(-6px, 8px, 15px, rgba(0, 0, 0, 0.2));
+  -webkit-filter: drop-shadow(-6px, 8px, 15px, rgba(0, 0, 0, 0.2));
+}
