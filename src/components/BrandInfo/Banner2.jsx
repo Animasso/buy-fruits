@@ -3,7 +3,7 @@ import { FadeUp } from "../../utils/animation";
 import { motion } from "framer-motion";
 const Banner2 = () => {
   return (
-    <section className="overflow-hidden container grid grid-cols-1 md:grid-cols-2 space-y-6 md:space-y-0 md:py-24 py-14">
+    <section className=" bg-primary/10 overflow-hidden container grid grid-cols-1 md:grid-cols-2 space-y-6 md:space-y-0 md:py-24 py-14">
       {/* banner info */}
       <div>
         <motion.div

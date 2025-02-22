@@ -4,6 +4,8 @@ import Hero from "./components/Hero/Hero";
 import Product from "./components/Products/Product";
 import BrandInfo from "./components/BrandInfo/BrandInfo";
 import Banner2 from "./components/BrandInfo/Banner2";
+import Banner3 from "./components/BrandInfo/Banner3";
+import Footer from "./Footer/Footer";
 
 const App = () => {
   return (
@@ -15,6 +17,8 @@ const App = () => {
           <Product />
           <BrandInfo />
           <Banner2 />
+          <Banner3 />
+          <Footer />
         </main>
       </main>
     </>
